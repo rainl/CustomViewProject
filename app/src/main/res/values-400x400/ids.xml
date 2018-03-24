@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- menuLayout-->
+    <item name="menuIcon" type="id" />
+    <item name="menuName" type="id" />
+    <item name="rightContent" type="id" />
+    <item name="menuRightIcon" type="id" />
+
+    <!-- detailsLayout-->
+    <item name="detailsLine" type="id" />
+    <item name="detailsTitle" type="id" />
+    <item name="detailsContent" type="id" />
+    <item name="detailsMore" type="id" />
+
+</resources>
