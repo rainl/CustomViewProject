@@ -142,6 +142,8 @@ public class RippleView extends View {
         mRectF2.set(leftAndTop_1, leftAndTop_1, rightAndBottom_1, rightAndBottom_1);
         mRectF3.set(leftAndTop_2, leftAndTop_2, rightAndBottom_2, rightAndBottom_2);
 
+        mLinePaint2.setAlpha((int) (255 - progress * 255));
+        mLinePaint3.setAlpha((int) (255 - progress * 255));
         canvas.drawArc(mRectF1, 0, 359, false, mLinePaint1);
         canvas.drawArc(mRectF2, 0, 359, false, mLinePaint2);
         canvas.drawArc(mRectF3, 0, 359, false, mLinePaint3);

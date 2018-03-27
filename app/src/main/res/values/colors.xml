@@ -6,4 +6,13 @@
     <color name="color_ffffffff">#ffffffff</color>
     <color name="color_99ffffff">#99ffffff</color>
     <color name="color_3dffffff">#3dffffff</color>
+    <color name="color_ffd0423d">#ffd0423d</color>
+    <color name="color_ff2d2e35">#ff2d2e35</color>
+    <color name="color_ffe1e1e1">#ffe1e1e1</color>
+    <color name="color_ff74499a">#ff74499a</color>
+    <color name="color_ff556170">#ff556170</color>
+    <color name="color_ff23252d">#ff23252d</color>
+    <color name="color_ff898990">#ff898990</color>
+    <color name="color_ff4253a3">#ff4253a3</color>
+    <color name="color_ff1eaad4">#ff1eaad4</color>
 </resources>

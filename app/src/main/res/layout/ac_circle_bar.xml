@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y525"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 lbs"
+                android:textColor="@color/color_ff556170"
+                android:textSize="@dimen/x40" />
+
+            <com.test.view.widget.CircleBar
+                android:id="@+id/weightCB"
+                android:layout_width="@dimen/x164"
+                android:layout_height="@dimen/x164"
+                android:layout_marginTop="@dimen/y24"
+                app:CircleBar_color="@color/color_ff74499a"
+                app:CircleBar_progress="70" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y36"
+                android:text="@string/weight"
+                android:textColor="@color/color_ff23252d"
+                android:textSize="@dimen/x40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y20"
+                android:text="lose:10 lbs"
+                android:textColor="@color/color_ff898990"
+                android:textSize="@dimen/x40" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 000"
+                android:textColor="@color/color_ff556170"
+                android:textSize="@dimen/x40" />
+
+            <com.test.view.widget.CircleBar
+                android:id="@+id/stepsCB"
+                android:layout_width="@dimen/x164"
+                android:layout_height="@dimen/x164"
+                android:layout_marginTop="@dimen/y24"
+                app:CircleBar_color="@color/color_ff4253a3"
+                app:CircleBar_progress="80" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y36"
+                android:text="@string/steps"
+                android:textColor="@color/color_ff23252d"
+                android:textSize="@dimen/x40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y20"
+                android:text="total:8 000"
+                android:textColor="@color/color_ff898990"
+                android:textSize="@dimen/x40" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 600"
+                android:textColor="@color/color_ff556170"
+                android:textSize="@dimen/x40" />
+
+            <com.test.view.widget.CircleBar
+                android:id="@+id/caloriesCB"
+                android:layout_width="@dimen/x164"
+                android:layout_height="@dimen/x164"
+                android:layout_marginTop="@dimen/y24"
+                app:CircleBar_color="@color/color_ff1eaad4"
+                app:CircleBar_progress="90" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y36"
+                android:text="@string/calories"
+                android:textColor="@color/color_ff23252d"
+                android:textSize="@dimen/x40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y20"
+                android:text="total:3696"
+                android:textColor="@color/color_ff898990"
+                android:textSize="@dimen/x40" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

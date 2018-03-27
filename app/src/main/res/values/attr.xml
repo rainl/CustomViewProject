@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleBar">
+        <!--进度条颜色-->
+        <attr name="CircleBar_color" format="color" />
+        <!--进度值-->
+        <attr name="CircleBar_progress" format="integer" />
+        <!--是否显示精度百分百字体-->
+        <attr name="CircleBar_showProgress_txt" format="boolean" />
+        <!--背景线条粗细-->
+        <attr name="CircleBar_bg_StrokeWidth" format="dimension" />
+        <!--背景线条颜色-->
+        <attr name="CircleBar_bg_StrokeColor" format="color" />
+        <!--线条粗细-->
+        <attr name="CircleBar_StrokeWidth" format="dimension" />
+        <!--是否是正向-->
+        <attr name="CircleBar_forward" format="boolean" />
+        <!--开始角度-->
+        <attr name="CircleBar_start_angle" format="integer" />
+    </declare-styleable>
+
+</resources>
